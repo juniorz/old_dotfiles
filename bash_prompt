@@ -61,5 +61,5 @@ bash_prompt() {
   local UC=$W                 # user's color
   [ $UID -eq "0" ] && UC=$R   # root's color
 
-  PS1="${debian_chroot:+($debian_chroot)}$EMG\u$Y@\h${NONE}:$EMY\w$R\$(__rvm_ruby_version)\$(__git_dirty_switch '$EMR' '$EMG')\$(__git_branch)${NONE} $ "
+  PS1="${debian_chroot:+($debian_chroot)}$EMY\u$EMB@\h${NONE}:$EMC\w$R\$(__rvm_ruby_version)\$(__git_dirty_switch '$EMR' '$EMG')\$(__git_branch)${NONE} $ "
 }
