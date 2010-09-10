@@ -9,7 +9,7 @@
 if [[ -n $PS1 ]] ; then
 
   #Bash Prompt functions
-  [[ -s "$HOME/.dotfiles/bash_prompt" ]] && source "$HOME/.dotfiles/bash_prompt"
+  [[ -s "$HOME/.bash/bash_prompt" ]] && source "$HOME/.bash/bash_prompt"
 
   # don't put duplicate lines in the history. See bash(1) for more options
   # ... or force ignoredups and ignorespace
