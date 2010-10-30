@@ -21,7 +21,7 @@ if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
 
-#source ~/.bash/aliases
-#source ~/.bash/completions
-source ~/.bash/paths
-#source ~/.bash/config
+#source $HOME/.bash/aliases
+#source $HOME/.bash/completions
+source $HOME/.bash/paths
+#source $HOME/.bash/config
